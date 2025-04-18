@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <main>
+        <h1>REGISTRATION FORM</h1>
+        <hr>
+        <form action="/olympics">
+            <p>
+                <label for="first">First Name : </label>
+                <input type="text" name="fname" id="first" required>
+                <label for="last">Last Name : </label>
+                <input type="text" name="Lname" id="last" required> <br>
+            </p>
+            <p>
+                <label for="race">Select a race:</label> <br>
+                <input type="radio" name="race_type" id="fr" value="Fun Run">
+                <label for="fr">Fun Run 5km</label> <br>
+                <input type="radio" name="race_type" id="hm" value="Half marathon">
+                <label for="hm">Half Marathon</label><br>
+                <input type="radio" name="race_type" id="fm" value="Full marathon">
+                <label for="fm">Full Marathon</label><br>
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="email" required id="email" name="email">
+                <label for="pass">Password</label>
+                <input type="password" required id="pass" name="pass"><br>
+            </p>
+            <p>
+                <label for="age">Select Your age Group:</label>
+                <select name="age" id="age">
+                    <option value="under 18">under 18</option>
+                    <option value="under 40">under 40</option>
+                    <option value="under 60">under 60</option>
+                </select><br>
+            </p>
+            <button>Register!</button>
+        </form>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+    background-color: #F2F6D0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: #443627;
+    font-size: 40px;
+}
+
+.userdetails label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #443627;
+    font-size: 30px;
+}
+
+input {
+    border: solid #C14600;
+    font-size: 20px;
+    background-color: #F2F6D0;
+}
+
+button {
+    font-size: 20px;
+    background-color: #D98324;
+    color: white;
+    border: solid black;
+    padding : 8px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: #443627;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #443627;
+    font-size: 25px;
+}
+
+textarea {
+    border: solid #C14600;
+    font-size: 20px;
+    background-color: #F2F6D0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.audio label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #443627;
+    font-size: 20px;
+}
+
+button:hover {
+    color: black;
+    background-color: grey;
+    border: solid grey;
+}
