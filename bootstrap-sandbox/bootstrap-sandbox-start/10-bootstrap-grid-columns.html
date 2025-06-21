@@ -12,37 +12,91 @@
       <h1 class="mb-5">Bootstrap Grid Columns</h1>
 
       <!-- Basic Grid Layout -->
-
+      <div class="row">
+        <div class="col border bg-light">1</div>
+        <div class="col bg-light border">2</div>
+        <div class="col bg-light border">3</div>
+        <div class="col bg-light border">4</div>
+      </div>
       <br /><br />
 
       <!-- Column Sizes -->
-
+      <div class="row">
+        <div class="col-6 bg-light border">6 length</div>
+        <div class="col-6 bg-light border">6 length</div>
+        <div class="col-4 bg-light border">4 length</div>
+        <div class="col-8 bg-light border">8 length</div>
+      </div>
       <br /><br />
 
       <!-- Responsive Grid -->
-
+      <div class="row">
+        <div class="col-md-4 border bg-light">md-4</div>
+        <div class="col-md-4 border bg-light">md-4</div>
+        <div class="col-md-4 border bg-light">md-4</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 bg-light border">sm-6</div>
+        <div class="col-sm-6 bg-light border">sm-6</div>
+        <div class="col-sm-6 bg-light border">sm-6</div>
+        <div class="col-sm-6 bg-light border">sm-6</div>
+        <div class="col-sm-6 bg-light border">sm-6</div>
+        <div class="col-sm-6 bg-light border">sm-6</div>
+      </div>
       <br /><br />
 
       <!-- Row Cols -->
-
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+        <div class="col bg-light border">column</div>
+        <div class="col bg-light border">column</div>
+        <div class="col bg-light border">column</div>
+        <div class="col bg-light border">column</div>
+        <div class="col bg-light border">column</div>
+        <div class="col bg-light border">column</div>
+      </div>
       <br /><br />
 
       <br /><br />
 
       <!-- Nesting -->
-
+      <div class="row">
+        <div class="col-4 bg-light border">1</div>
+        <div class="col-4 bg-light border">2</div>
+        <div class="col-4 bg-light border">
+          <div class="row">
+            <div class="col-6 text-bg-dark">nested</div>
+            <div class="col-6 text-bg-dark">nested</div>
+            <div class="col-6 text-bg-dark">nested</div>
+            <div class="col-6 text-bg-dark">nested</div>
+          </div>
+        </div>
+      </div>
       <br /><br />
 
       <!-- Gutters -->
-
+      <div class="row gap-3">
+        <div class="col p-3 text-bg-primary">columns</div>
+        <div class="col p-3 text-bg-primary">columns</div>
+        <div class="col p-3 text-bg-primary">columns</div>
+        <div class="col p-3 text-bg-primary">columns</div>
+      </div>
       <br /><br />
 
       <!-- Offsetting Columns -->
-
+      <div class="row gap-3">
+        <div class="col-3 p-3 text-bg-primary offset-2">columns</div>
+        <div class="col-3 p-3 text-bg-primary">columns</div>
+        <div class="col-3 p-3 text-bg-primary">columns</div>
+      </div>
       <br /><br />
 
       <!-- Ordering -->
-
+      <div class="row">
+        <div class="col bg-light border order-3">1</div>
+        <div class="col bg-light border order-1">2</div>
+        <div class="col bg-light border order-2">3</div>
+        <div class="col bg-light border order-4">4</div>
+      </div>
       <!-- Don't go past here -->
     </div>
     <div style="margin-top: 350px"></div>
