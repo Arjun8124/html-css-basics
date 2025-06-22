@@ -11,11 +11,32 @@
   <body>
     <div class="container">
       <h1 class="mb-5">Toasts</h1>
-
+      <button class="btn btn-primary" id="toastbtn">Show toast</button>
+      <div class="toast-container postion-fixed bottom-0 end-0 p-3">
+        <div class="toast" id="myToast">
+          <div class="toast-header text-bg-danger">
+            <h5 class="me-auto">Bootstrap</h5>
+            <small>11 mins ago</small>
+          </div>
+          <div class="toast-body text-bg-danger">
+            Hi i am a toast message!
+          </div>
+        </div>
+      </div>
       <!-- Don't go past here -->
     </div>
     <div style="margin-top: 350px"></div>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const toasttrigger = document.querySelector("#toastbtn");
+      const toast = document.querySelector("#myToast");
+      if(toasttrigger){
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toast);
+        toasttrigger.addEventListener("click", () => {
+          toastBootstrap.show();
+        });
+      }
+    </script>
   </body>
 </html>
