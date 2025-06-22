@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/pricing_panel_bootstrap.iml" filepath="$PROJECT_DIR$/.idea/pricing_panel_bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ratings component/.idea/ratings component.iml" filepath="$PROJECT_DIR$/../ratings component/.idea/ratings component.iml" />
     </modules>
   </component>
 </project>
