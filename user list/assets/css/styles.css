@@ -1,0 +1,12 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+@media(max-width:800px){
+    #navlinks{
+        justify-content: center; !important;
+        margin-top: 20px;
+    }
+    .pagination{
+        justify-content: center;
+    }
+}

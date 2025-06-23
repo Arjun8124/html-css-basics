@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d3c797e-be74-4ef5-8d5e-be6e58346838" name="Changes" comment="ratings component miniproject using bootstrap">
+      <change afterPath="$PROJECT_DIR$/../user list/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user list/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user list/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user list/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user list/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user list/assets/js/darkmodetoggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user list/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +59,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gupta\Documents\mern\ratings component" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750623147205</updated>
       <workItem from="1750623148381" duration="3464000" />
-      <workItem from="1750688964309" duration="707000" />
+      <workItem from="1750688964309" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="ratings component miniproject using bootstrap">
       <option name="closed" value="true" />
@@ -78,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750626603104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ratings component miniproject using bootstrap">
+      <option name="closed" value="true" />
+      <created>1750689899214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750689899214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
